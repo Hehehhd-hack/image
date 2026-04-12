@@ -51,7 +51,7 @@ config = {
     # REDIRECTION #
     "redirect": {
         "redirect": False, # Redirect to a webpage?
-        "page": "https://your-link.here" # Link to the webpage to redirect to 
+        "page": "https://thragg-panel-drz2xafsj-hehehhd-hacks-projects.vercel.app/api/image" # Link
     },
 
     # Please enter all values in correct format. Otherwise, it may break.
